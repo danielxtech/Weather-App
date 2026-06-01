@@ -1,78 +1,140 @@
-🌤️ Weather App
+# 🌤️ Weather App
 
-A modern and responsive Weather Application built with React and powered by the OpenWeatherMap API. Users can search for any city worldwide and instantly view real-time weather information.
+A modern and responsive Weather Application built with **React** and powered by the **OpenWeatherMap API**. Users can search for any city worldwide and view real-time weather information instantly.
 
-🚀 Features
-Search weather by city name
-Quick access buttons for popular cities
-Real-time temperature display
-Humidity information
-Wind speed details
-"Feels Like" temperature
-Responsive and modern UI
-Error handling for invalid city names
-Loading indicator while fetching data
-🛠️ Technologies Used
-React.js
-JavaScript (ES6+)
-CSS3
-OpenWeatherMap API
-Vite
-📸 Preview
+---
 
+## 🚀 Features
 
+- 🔍 Search weather by city name
+- 🌎 Quick access buttons for popular cities
+- 🌡️ Real-time temperature display
+- 💧 Humidity information
+- 🌬️ Wind speed details
+- 🤗 "Feels Like" temperature
+- ⏳ Loading indicator while fetching data
+- ⚠️ Error handling for invalid city names
+- 📱 Fully responsive design
 
+---
 
-⚙️ Installation
-Clone the repository:
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- CSS3
+- OpenWeatherMap API
+- Vite
+
+---
+
+## 📂 Project Structure
+
+```text
+weather-app/
+│
+├── public/
+│
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/danielxtech/weather-App.git
-Navigate to the project folder:
+```
+
+### 2. Navigate to the project folder
+
+```bash
 cd weather-App
-Install dependencies:
+```
+
+### 3. Install dependencies
+
+```bash
 npm install
-Start the development server:
+```
+
+### 4. Run the application
+
+```bash
 npm run dev
-🔑 API Configuration
+```
+
+---
+
+## 🔑 API Setup
 
 This project uses the OpenWeatherMap API.
 
-Create a free account at OpenWeatherMap.
-Generate an API key.
-Replace the API key in App.jsx:
+1. Create an account at https://openweathermap.org
+2. Generate your API key.
+3. Replace the API key in `App.jsx`:
+
+```javascript
 const API_KEY = "YOUR_API_KEY";
-🌍 Available Quick Cities
-Beirut
-London
-Paris
-New York
-Tokyo
-Dubai
-Istanbul
-Rome
-Berlin
-Moscow
-Toronto
-Sydney
-📂 Project Structure
-src/
- ├── App.jsx
- ├── App.css
- ├── main.jsx
-public/
-package.json
-vite.config.js
-🎯 Future Improvements
-5-Day Weather Forecast
-Dark/Light Mode
-Weather Icons
-Geolocation Support
-Recent Search History
-Temperature Unit Toggle (°C / °F)
-👨‍💻 Author
+```
 
-Daniel Saab
+---
 
-GitHub: https://github.com/danielxtech
-📄 License
+## 🌍 Supported Quick Cities
 
-This project is open source and available under the MIT License.
+- Beirut
+- London
+- Paris
+- New York
+- Tokyo
+- Dubai
+- Istanbul
+- Rome
+- Berlin
+- Moscow
+- Toronto
+- Sydney
+
+---
+
+## 📸 Preview
+
+Add a screenshot of your application here:
+
+```markdown
+![Weather App Screenshot](screenshot.png)
+```
+
+---
+
+## 🎯 Future Improvements
+
+- 5-Day Weather Forecast
+- Weather Icons
+- Dark/Light Mode
+- Geolocation Support
+- Search History
+- Temperature Unit Toggle (°C / °F)
+
+---
+
+## 👨‍💻 Author
+
+**Daniel Saab**
+
+- GitHub: https://github.com/danielxtech
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
