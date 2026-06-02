@@ -111,7 +111,7 @@ const API_KEY = "YOUR_API_KEY";
 Add a screenshot of your application here:
 
 ```markdown
-![Weather App Screenshot](<img width="902" height="610" alt="Screenshot 2026-06-02 231126" src="<img width="902" height="610" alt="image" src="https://github.com/user-attachments/assets/a5e66dec-d9c8-4f7f-8195-739d47b53bd5" />
+![Weather App Screenshot](<img width="902" height="610" alt="Screenshot 2026-06-02 231126" src="<img width="902" height="610" alt="image" src=""C:\weather-app\sceershoot_weathapp\weather-app.png"" />
 " />
 )
 ```
