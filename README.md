@@ -127,14 +127,6 @@ Add a screenshot of your application here:
 
 ---
 
-## 👨‍💻 Author
-
-**Daniel Saab**
-
-- GitHub: https://github.com/danielxtech
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License.
